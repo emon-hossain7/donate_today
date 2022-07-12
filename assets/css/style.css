@@ -147,6 +147,7 @@ section.donate-today {
     align-items: center;
     justify-content: center;
     margin: 50px 0 60px;
+    flex-wrap: wrap;
 }
 
 .single-donate input {
@@ -178,7 +179,8 @@ section.donate-today {
 .other-amount p {
     padding-bottom: 10px;
     border-bottom: 1px solid #DADADA;
-    width: 765px;
+    /* width: 765px; */
+    width: auto;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 30px;
